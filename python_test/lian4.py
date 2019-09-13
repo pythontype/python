@@ -36,3 +36,23 @@ print ("we can transport",carpool_capacity,"people today.")
 print("we have", passengers,"to carpool today.")
 #输出“average_passengers_per_car”的值
 print("we need to put about", average_passengers_per_car ,"in each car.")
+
+
+
+#故事版代码内容：
+#有100辆小汽车
+#每辆小汽车可以座4个乘客
+#有30个小汽车司机
+#有90个乘客
+
+#有车没司机的数量
+#有车有司机的数量
+#最多可以运输多少人
+#每辆车需要运输的人数
+
+#共有100辆车
+#共30位司机
+#无法乘坐的车
+#最多可以运输人数
+#有90位乘客
+#每辆车需要运输多少人
