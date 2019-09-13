@@ -35,3 +35,6 @@ else:
                     if mon  < 100000:
                         bonus = mon * 0.1
 print( bonus)
+
+
+#input获取的数据是字符串，无法直接进行比较比较，需要先将字符串转换为整数
