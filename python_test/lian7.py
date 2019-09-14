@@ -31,3 +31,20 @@ end12 = "r"
 # 不加逗号的结果：分别输出在两行
 print ("end1 + end2 + end3 + end4 + end5 + end6,\n")
 print ("end7 + end8 + end9 +\nend10 + end11 + end12")
+
+
+# 运行报了两次错误
+# 1、
+#  print ("Its fleece was white as %s.") % 'snow'
+# TypeError: unsupported operand type(s) for %: 'NoneType' and 'str'  # %不支持的操作数类型:'NoneType'和'str'
+#
+# 把需要替换的字符串放入括号中
+#  print ("Its fleece was white as %s." % 'snow'）
+##############################################################################################################
+#2、
+#   print (end1 + end2 + end3 + end4 + end5 + end6,)\n
+#                                                    ^
+#SyntaxError: unexpected character after line continuation character  # 行连续字符之后的意外字符
+#
+#需要把字符放入括号中，并且需要双引号引起来
+#print ("end1 + end2 + end3 + end4 + end5 + end6,\n")
